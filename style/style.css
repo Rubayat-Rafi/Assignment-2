@@ -363,12 +363,11 @@ p{
 /* traning section design end here  */
 
 /* bmi calculator design start here */
-
 .bmi-heading{
     max-width: 700px;
     margin: 0 auto;
     text-align: left;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 .bg-container{
     width: 100%;
@@ -579,3 +578,158 @@ footer{
     padding: 3rem 0;
 }
 /* footer design end here */
+@media screen and (min-width:577px) and (max-width:768px){
+    .nav-list{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+}
+
+/* responsive  design start here */
+@media screen and (max-width:576px) {
+    .container{
+        width: 90%;
+        max-width: 576px;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+    .nav-list{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .home-container{
+        flex-direction: column;
+        width: 90%;
+    }
+    .home-content{
+        width: 100%;
+        text-align: left;
+    }
+    .home-content h3{
+        font-size: 5.6rem;
+        max-width: 400px;
+    }
+    .style{
+        font-size: 10.6rem;
+    }
+    h3{
+        font-size: 2.6rem;
+        line-height: normal;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 150%;
+    }
+    .home-img{
+        width: 100%;
+    }
+    .img-top > h3{
+        font-size: 2.6rem;
+    }
+    .home-img .img-top{
+        top: 80px;
+        right:0px ;
+    }
+    .home-img .img-bottom{
+        left: 20px;
+        bottom: 250px;
+    }
+    .habit-content{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0rem;
+    }
+    .card-heading > p{
+        max-width: 200px;
+    }
+    .habits{
+        margin: 5rem auto;
+    }
+    .run-container{
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    .run-content{
+        width: 100%;
+    }
+    .run-img{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .row-1, .row-2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .traning{
+        margin: 5rem auto;
+    }
+    .bmi-heading{
+        margin-bottom: 5rem;
+    }
+    .calculator-container{
+        flex-direction: column; 
+        padding: 3rem 0; 
+        text-align: center; 
+    }
+    .bmi-chart{
+        width: 100%;
+
+    }
+    .bmi-calculator{
+        width: 100%;
+        padding-left: 0rem;
+    }
+    table{
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .bmi-chart > h3{
+        margin-bottom: 2rem; 
+        font-size: 2.4rem;
+    }
+    .bmi-calculator h3{
+        font-size: 2.4rem;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+    .about-content{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .about-img{
+        width: 100%;
+    }
+    #about{
+        padding: 0rem;
+    }
+    .team-cards{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1.5rem;
+    }
+    .team{
+        margin-bottom: 5rem;  
+    }
+    .info-trainer > h3{
+        font-size: 2rem;
+    }
+    .info-trainer > p{
+        font-size: 1.4rem;
+    }
+    .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 0;
+    }
+    .footer-col > h3{
+        font-size: 2.4rem;
+        margin-top: 2rem;
+    }
+    .right > p{
+        padding: 2rem 0;
+    }
+
+
+}
+/* responsive design start here */
