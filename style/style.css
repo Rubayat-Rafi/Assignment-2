@@ -308,7 +308,6 @@ p{
         bottom: 0;
         left: 3rem;
         color: #000000;
-        
     }
     .exercise-2{
         top: 2rem;
@@ -419,7 +418,6 @@ table {
     font-size: 1.6rem;
     max-width: 800px;
 }
-
 
 form{
     width: 100%;
@@ -610,32 +608,52 @@ footer{
         text-align: left;
     }
     .home-content h3{
-        font-size: 5.6rem;
-        max-width: 400px;
+        font-size: 3.6rem;
+        max-width: 250px;
     }
+    .home-content p{
+        max-width: 270px;
+    }
+    .button .btn-2{
+        margin-left: 1rem;
+    }
+
     .style{
-        font-size: 10.6rem;
+        font-size: 7.6rem;
     }
     h3{
-        font-size: 2.6rem;
+        font-size: 2.8rem;
         line-height: normal;
     }
     p{
         font-size: 1.2rem;
         line-height: 150%;
     }
+    .btn{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
     .home-img{
         width: 100%;
     }
     .img-top > h3{
-        font-size: 2.6rem;
+        font-size: 2.4rem;
+    }
+    .img-top > p{
+        font-size: 1rem;
+    }
+    .sub-content > p{
+        font-size: 1rem;
+    }
+    .sub-content > h3{
+        font-size: 1.8rem;
     }
     .home-img .img-top{
         top: 80px;
         right:0px ;
     }
     .home-img .img-bottom{
-        left: 20px;
+        left: 0px;
         bottom: 250px;
     }
     .habit-content{
@@ -649,18 +667,34 @@ footer{
         margin: 5rem auto;
     }
     .run-container{
-        flex-direction: column-reverse;
-        padding: 1rem;
+        flex-direction: column;
+        padding: 3rem;
     }
     .run-content{
         width: 100%;
     }
+    .run-btn{
+        width: 100%;
+    }
     .run-img{
         width: 100%;
-        margin-bottom: 3rem;
+        margin-top: 3rem;
     }
     .row-1, .row-2{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .t-display{
+        display: none;
+    }
+    .exercise-card img{
+        width: 100%;
+        height: 100px;
+    }
+    .exercise{
+        font-size: 0.8rem;
+    }
+    .exercise-1{
+        color: var(--text-color);
     }
     .traning{
         margin: 5rem auto;
@@ -712,6 +746,10 @@ footer{
     .team{
         margin-bottom: 5rem;  
     }
+    .cards > img{
+        width: 100%;
+        height: 300px;
+    }
     .info-trainer > h3{
         font-size: 2rem;
     }
@@ -729,7 +767,5 @@ footer{
     .right > p{
         padding: 2rem 0;
     }
-
-
 }
 /* responsive design start here */
