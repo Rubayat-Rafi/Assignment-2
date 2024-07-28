@@ -569,6 +569,7 @@ footer{
 }
 .right > hr{
     border: 0.2rem solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
 }
 .right > p{
     font-size: 1.4rem;
@@ -576,6 +577,102 @@ footer{
     padding: 3rem 0;
 }
 /* footer design end here */
+
+
+
+/* responsive design start here */
+@media screen and (min-width:1201px) and (max-width:1440px){
+    .home-img .img-top{
+        top: 150px;
+        right:100px ;
+    }
+    .home-img .img-bottom{
+        left: 50px;
+        bottom: 60px;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+    .home-img .img-top{
+        top: 80px;
+        right:0px ;
+    }
+    .home-img .img-bottom{
+        left: 0px;
+        bottom: 60px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .nav-list{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+    }
+    .container{
+        width: 90%;
+        max-width: 992px;
+        margin: 0 auto;
+    }
+    .home-container{
+        flex-direction: column;
+        width: 80%;
+    }
+    .home-content{
+        width: 100%;
+        text-align: left;
+    }
+    .home-img .img-top{
+        top: 80px;
+        right:0px ;
+    }
+    .home-img .img-bottom{
+        left: 0px;
+        bottom: 250px;
+    }
+    .habit-content{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 8rem;
+    }
+    .card-heading > p{
+        max-width: 200px;
+    }
+    .habits{
+        margin: 5rem auto;
+    }
+    .run-container{
+        padding: 3rem;
+    }
+    .run-content{
+        width: 50%;
+    }
+    .run-img{
+        width: 50%;
+    }
+    .traning {
+        margin-top: 5rem;
+    }
+    #about{
+        padding: 0rem;
+    }
+    .team-cards{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1.5rem;
+    }
+    .team{
+        margin-bottom: 5rem;  
+    }
+    .info-trainer > h3{
+        font-size: 3rem;
+    }
+    .info-trainer > p{
+        font-size: 2rem;
+    }
+    .footer-left-text{
+        max-width: 350px;
+    }
+}
 @media screen and (min-width:577px) and (max-width:768px){
     .nav-list{
         display: none;
@@ -583,15 +680,101 @@ footer{
     #menu-icon{
         display: block;
     }
+    .container{
+        width: 90%;
+        max-width: 992px;
+        margin: 0 auto;
+    }
+    .home-container{
+        flex-direction: column;
+        width: 90%;
+    }
+    .home-content{
+        width: 100%;
+        text-align: left;
+    }
+    .home-img .img-top{
+        top: 80px;
+        right:-50px ;
+    }
+    .home-img .img-bottom{
+        left: 0px;
+        bottom: 250px;
+    }
+    .habit-content{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 5rem;
+    }
+    .card-heading > p{
+        max-width: 200px;
+    }
+    .habits{
+        margin: 5rem auto;
+    }
+    .run-container{
+        flex-direction: column;
+        padding: 3rem;
+    }
+    .run-content{
+        width: 100%;
+    }
+    .run-img{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .traning {
+        margin-top: 5rem;
+    }
+    .row-1, .row-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .t-display{
+        display: none;
+    }
+    .exercise-card img{
+        width: 100%;
+        height: 200px;
+    }
+    .about-container{
+        flex-direction: column;
+    }
+    .about-content{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .about-img{
+        width: 100%;
+    }
+    #about{
+        padding: 0rem;
+    }
+    .team-cards{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1.5rem;
+    }
+    .team{
+        margin-bottom: 5rem;  
+    }
+    .info-trainer > h3{
+        font-size: 2rem;
+    }
+    .info-trainer > p{
+        font-size: 1.4rem;
+    }
+    .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 0;
+    }
+    .footer-left-text{
+        max-width: 400px;
+    }
 }
 
-/* responsive  design start here */
 @media screen and (max-width:576px) {
     .container{
         width: 90%;
         max-width: 576px;
         margin: 0 auto;
-        /* border: 1px solid red; */
     }
     .nav-list{
         display: none;
@@ -709,7 +892,6 @@ footer{
     }
     .bmi-chart{
         width: 100%;
-
     }
     .bmi-calculator{
         width: 100%;
@@ -768,4 +950,4 @@ footer{
         padding: 2rem 0;
     }
 }
-/* responsive design start here */
+/* responsive design end here */
